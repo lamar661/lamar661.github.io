@@ -1,0 +1,61 @@
+@keyframes back{
+    from{background-color: white}
+    to{background-color:blue}
+  }
+  @keyframes ttg{
+    from{text-color: white}
+    to{text-color: blue}
+  }
+  @keyframes blb{
+    0%{top: 10px}
+    25%{top: 30px}
+  }
+  h1{ transtion;
+  text-align:center;
+  color:white;
+  animation-name:blb;}
+  /*the border*/
+  body{background-color:black}
+  
+  h3:hover {
+    anima
+    
+  }
+  /*tomcat the gamer */
+  h3{color:white;
+  font-size:45px;
+  text-align:center;
+  animation-name: ttg;
+  animation-iteration-count:infinite;
+  animation-direction:reverse;
+  animation-duration:10s;}
+  /*this was gonna be a hover tansition but stuff happens*/
+  h3:hover {
+  animation-name:blb;
+  }
+  /*My life story title*/
+  h2{color:white;
+  padding-left:20px;
+  text-align:center;
+  text-size:50px;
+  }
+  /*text for my life*/
+  p{color:white; 
+  font-family:georgia;}
+  /*space under ttg*/
+  h3{padding-top:20px}
+   p{
+      padding-top: 1px;
+      padding-right: 20px;
+      padding-bottom:10px;
+      padding-left: 20px;
+  }
+  /*animation and background color*/
+  html{background-color:white;
+    animation-name:back;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;}
+  /*border egdes*/
+  body{border-radius:30px}
+  
